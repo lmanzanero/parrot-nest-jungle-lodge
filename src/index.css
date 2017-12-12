@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/background.jpg');
+}
+
+/*HEADER*/
+.brand-logo img {
+  width: 110px;
+}
+
+nav {
+  height: 200px;
+  background-color: transparent;
+  margin: auto;
+  font-size: 40px;
+}
+
+nav .fixedNav {
+  text-align: center;
+  position: relative;
+  width: 150px;
+  padding: 10px;
+  margin: 0;
+  top: 100px;
+  left: 385px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+#mobile-demo {
+ background-color: rgba(211, 217, 215, 0.9);
+}
+
+
+#mobile-demo li a {
+  color: black;
+}
+
+#mobile-demo li img {
+   position: absolute;
+   top: 300px;
+}
+
+#mobile-demo li a:hover {
+  background-color: rgba(86, 97, 95, 0.4);
+  color: black;
+}
