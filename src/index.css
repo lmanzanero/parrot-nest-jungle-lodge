@@ -6,55 +6,132 @@ body {
 }
 
 /*HEADER*/
+.brand-logo {
+  position: relative;
+}
+
 .brand-logo img {
-  width: 70px;
+  position: relative;
+  width: 130px;
+  margin-left: 50px;
+  top: -100px;
+}
+.brand-logo-small img {
+  position: relative;
+  width: 60px;
+  margin-left: 90px; 
 }
  
 nav {
-  background-color: rgba(41, 53, 49, 0.3);
+  background-color: rgb(27, 125, 139);
 }
 
+nav.trans {
+  background-color: rgba(27, 125, 139, 0.8);
+}
+nav li {
+  position: relative;
+  right: 120px;
+  margin: 0 auto;
+  text-align: center !important;
+}
+ 
+nav li a {
+  font-size: 25px;
+}
+nav li a:hover {
+  background-color:rgba(41, 53, 49, 0.7);
+  font-size: 30px;
+}
 .home {
   width: 100% !important;
   position: relative;
 }
  
 
-#mobile-demo {
- background-color: rgba(211, 217, 215, 0.9);
- width: 70%;
+
+.side-nav {
+  background-color: rgba(210, 218, 216, 0.9); 
+  font-size: 30px !important;
 }
 
-
-#mobile-demo li a {
-  color: black;
+.side-nav li a {
+  font-size: 20px;
 }
 
-#mobile-demo li img {
-   position: absolute;
-   top: 350px;
-}
-
-#mobile-demo li a:hover {
-  background-color: rgba(86, 97, 95, 0.4);
-  color: black;
+.side-nav li a:hover {
+  background-color:rgba(77, 92, 88, 0.9);
+  color: rgb(241, 247, 248);
+  font-size: 30px;
 }
 
 /*HOME*/
+
+.preHeader.hidden {
+  display: none;  
+}
+
+.preHeader h1{
+  text-align: center;
+  color: #CFC;
+  font-family: 'jokerman';
+  position: relative;
+  top: 60px;
+}
  
+.preHeader {
+  background-color: rgb(27, 125, 139);
+  position: relative;  
+  height: 150px; 
+}
+
+.mainHeader {
+  position: relative;
+  top: -35px;
+}
+
+.mainHeader.trick {
+  padding-bottom: 190px;
+}
+
+.navbar-fixed {
+  top: 35px;
+}
+  
 
  
 
 /*SLIDER*/
 .slider {
-  top: -65px; 
-  margin-bottom: -65px;
+  top: -35px; 
+  margin-bottom: -35px;
 }
  
 /*FOOTER*/
 
 .page-footer {
-  background-color: rgba(86, 97, 95, 0.9);
+  background-color: rgba(27, 125, 139, 0.6);
 }
 
+@media only screen and (max-width: 500px) { 
+    .preHeader {
+      background-color: rgb(27, 125, 139);
+      position: relative;  
+      height: 160px; 
+    } 
+    .preHeader h1{
+      text-align: center;
+      color: #CFC;
+      font-family: 'jokerman'; 
+      font-size: 25px;
+      margin-left: 40px; 
+      position: relative; 
+    }
+    .brand-logo img {
+      position: relative;
+      width: 80px;
+      margin-left: 10px;
+      top: -100px;
+    } 
+}
  

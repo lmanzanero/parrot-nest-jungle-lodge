@@ -22,9 +22,6 @@
     <!-- Compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-
     <title>React App</title>
   </head>
   <body>
@@ -49,17 +46,19 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript">
     $( document ).ready(function(){
-       $(".button-collapse").sideNav();
-       $('.parallax').parallax();
-       $('.slider').slider({
-          height: 663,
-          indicators: false,
-       });  
-      //SCROLLSPY
-      $(document).ready(function(){
-          $('.scrollspy').scrollSpy();
-        });
-    })
+        $(".button-collapse").sideNav();
+        $('.parallax').parallax();
+        $('.carousel').carousel();
+        $('.materialboxed').materialbox();
+        $('.scrollspy').scrollSpy();
+        $('.slider').slider({
+            height: 705,
+            indicators: false,
+            transition: 2000,
+            interval:  12000
+        }); 
+    }); 
+         
   </script>
   </body>
 </html>
