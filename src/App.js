@@ -12,14 +12,12 @@ class App extends Component {
     return (
         <BrowserRouter>
           <div className="App">
-          <header className="App-header">
-                <Header/>
-              </header>
+              <Header/>
               <Route exact path="/"  component={Home}/>
-              <Route exact path="/cabins"  component={Footer}/>
-              <Route exact path="/reviews"  component={Footer}/>
+              <Route exact path="/cabins"  component={Home}/>
+              <Route exact path="/reviews"  component={Home}/>
               <Route exact path="/contact"  component={Home}/>
-              <Route exact path="/reservation"  component={Home}/>
+              <Route exact path="/reservations"  component={Home}/>
               <Route exact path="/gallery"  component={Home}/>
               <Route exact path="/tours"  component={Home}/>
               <Footer/>
