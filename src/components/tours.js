@@ -4,7 +4,7 @@ class Tours extends Component {
     render() {
         return (
             <div>
-                
+                Tours!
             </div>
         );
     }

@@ -4,7 +4,7 @@ class Reviews extends Component {
     render() {
         return (
             <div>
-                
+                Reviews
             </div>
         );
     }

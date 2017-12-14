@@ -9,7 +9,7 @@ class Featured extends Component {
             <div className="slider">
                 <ul className="slides">
                 <li>
-                    <img src="/images/slider/1.jpg"/> 
+                    <img alt="sliderimgs" src="/images/slider/1.jpg"/> 
                     <div className="caption center-align">
                     <br/>
                     <br/>
@@ -20,7 +20,7 @@ class Featured extends Component {
                     </div>
                 </li>
                 <li>
-                    <img src="/images/slider/2.jpg"/> 
+                    <img alt="sliderimgs" src="/images/slider/2.jpg"/> 
                     <div className="caption left-align">
                     <br/>
                     <br/>
@@ -31,7 +31,7 @@ class Featured extends Component {
                     </div>
                 </li>
                 <li>
-                    <img src="/images/slider/3.jpg"/> 
+                    <img alt="sliderimgs" src="/images/slider/3.jpg"/> 
                     <div className="caption right-align">
                     <br/>
                     <br/>
@@ -42,7 +42,7 @@ class Featured extends Component {
                     </div>
                 </li>
                 <li>
-                    <img src="/images/slider/4.jpg"/> 
+                    <img alt="sliderimgs" src="/images/slider/4.jpg"/> 
                     <div className="caption center-align">
                     <br/>
                     <br/>

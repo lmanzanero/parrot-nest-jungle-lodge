@@ -13,17 +13,17 @@ class About extends Component {
                         <p className="header col s12 light">TParrot Nest Lodge is a truly unique tropical experience. Spending the night under a 100 foot guanacaste tree in a tree house is like nothing else! The lodge is surrounded on three sides by the Mopan River, so a refreshing swim in clear water is never far away and the wildlife of the area abound. Yes, parrots and toucans are in great number here, along with hundreds of other types of birds, making this an ideal location for bird watching. Coati, agouti, otter, and the giant green iguana are among the many animals which are regular visitors to our beautiful gardens which, though lush and exotic, are virtually mosquito free, a real bonus for those who love the great outdoors - and a good night's sleep.</p>
                         </div>
                         <div className="row center">
-                        <a href="http://materializecss.com/getting-started.html" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Learn more from our Reviews!</a>
+                        <a href="#" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Learn more from our Reviews!</a>
                         </div>
                         <br></br>
 
                     </div>
                     </div>
-                    <div className="parallax"><img src="/images/background.jpg" alt="Unsplashed /images/backgroundimg 1"/></div>
+                    <div className="parallax"><img src="/images/gallery/14.jpg" alt="Unsplashed"/></div>
                 </div>
 
 
-                <div className="container">
+                <div className="container about">
                     <div className="section">
  
                     <div className="row">

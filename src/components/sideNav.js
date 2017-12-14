@@ -7,22 +7,17 @@ class SideNav extends Component {
             <div>
                 <ul id="slide-out" className="side-nav">
                     <li>
-                        <div className="user-view">
-                                <div className="background">
-                                <img src="/images/background.jpg"/>
-                                </div>
-                            <a href="#!user"><img className="circle" src="/images/logo.gif"/></a>
-                            <a href="#!name"><span className="white-text name">John Doe</span></a>
-                            <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
+                        <div className="user-view"> 
+                            <Link to="/"><img alt="logo" src="images/logo.gif"/></Link> 
                         </div>
                     </li>
                     <div className="bottom-section">
-                        <li><Link to="/">Home</Link></li> 
-                        <li><Link to="/reservations">Reservations</Link></li> 
-                        <li><Link to="/reviews">Reviews</Link></li> 
-                        <li><Link to="/gallery">Gallery</Link></li> 
-                        <li><Link to="/tours">Tours</Link></li> 
-                        <li><Link to="/contacts">Contacts</Link></li> 
+                        <li><Link to="/"><i className="material-icons">home</i>Home</Link></li> 
+                        <li><Link to="/reservations"><i className="material-icons">bookmark</i>Reservations</Link></li> 
+                        <li><Link to="/reviews"><i className="material-icons">rate_review</i>Reviews</Link></li> 
+                        <li><Link to="/gallery"><i className="material-icons">photo_library</i>Gallery</Link></li> 
+                        <li><Link to="/tours"><i className="material-icons">nature_people</i>Tours</Link></li> 
+                        <li><Link to="/contacts"><i className="material-icons">contacts</i>Contacts</Link></li> 
                     </div>
                  </ul>
             </div>
