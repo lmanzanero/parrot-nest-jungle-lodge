@@ -43,7 +43,7 @@ class Header extends Component {
             <nav className={this.state.isToggleOn ? '' : 'trans'}>
               <div className="nav-wrapper">
               <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
-                  <a href="#" className={this.state.isToggleOn ? 'brand-logo' : 'brand-logo-small'}> <img className="responsive-img circle" src="images/logo.gif"/></a>
+                  <a href="#" className={this.state.isToggleOn ? 'brand-logo' : 'brand-logo-small'}> <img className="responsive-img circle" src="/images/logo.gif"/></a>
                   <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><Link to="/">Home</Link></li> 
                     <li><Link to="/reservations">Reservations</Link></li> 

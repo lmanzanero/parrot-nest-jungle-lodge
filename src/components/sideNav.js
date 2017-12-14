@@ -8,7 +8,7 @@ class SideNav extends Component {
                 <ul id="slide-out" className="side-nav">
                     <li>
                         <div className="user-view"> 
-                            <Link to="/"><img alt="logo" src="images/logo.gif"/></Link> 
+                            <Link to="/"><img alt="logo" src="/images/logo.gif"/></Link> 
                         </div>
                     </li>
                     <div className="bottom-section">
