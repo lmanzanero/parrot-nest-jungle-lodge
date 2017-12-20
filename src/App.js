@@ -20,12 +20,12 @@ class App extends Component {
           <div className="App">
               <Header/>
               <Route exact path="/"  component={Home}/>
-              <Route path="/cabins"  component={Cabins}/>
-              <Route path="/reviews"  component={Reviews}/>
-              <Route path="/contacts"  component={Contacts}/>
-              <Route path="/reservations"  component={Reservations}/>
-              <Route path="/gallery"  component={Gallery}/>
-              <Route path="/tours"  component={Tours}/>
+              <Route exact path="/cabins"  component={Cabins}/>
+              <Route exact path="/reviews"  component={Reviews}/>
+              <Route exact path="/contacts"  component={Contacts}/>
+              <Route exact path="/reservations"  component={Reservations}/>
+              <Route exact path="/gallery"  component={Gallery}/>
+              <Route exact path="/tours"  component={Tours}/>
               <Footer/>
           </div>
         </BrowserRouter>

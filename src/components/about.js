@@ -1,100 +1,108 @@
 import React, { Component } from 'react';
+import { Parallax, Modal, Button } from 'react-materialize';
+import { Link } from 'react-router-dom';
+import Map from './map';
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <div id="index-banner" className="parallax-container">
+            <div className="about">
+                <div>
                     <div className="section no-pad-bot">
                     <div className="container">
                         <br></br>
                         <h1 className="header center teal-text text-lighten-2">About Us</h1>
                         <div className="row center">
-                        <p className="header col s12 light">TParrot Nest Lodge is a truly unique tropical experience. Spending the night under a 100 foot guanacaste tree in a tree house is like nothing else! The lodge is surrounded on three sides by the Mopan River, so a refreshing swim in clear water is never far away and the wildlife of the area abound. Yes, parrots and toucans are in great number here, along with hundreds of other types of birds, making this an ideal location for bird watching. Coati, agouti, otter, and the giant green iguana are among the many animals which are regular visitors to our beautiful gardens which, though lush and exotic, are virtually mosquito free, a real bonus for those who love the great outdoors - and a good night's sleep.</p>
+                        <p className="header col s12 light">The Parrot Nest Lodge is a truly unique tropical experience. Spending the night under a 100 foot guanacaste tree in a tree house is like nothing else! The lodge is surrounded on three sides by the Mopan River, so a refreshing swim in clear water is never far away and the wildlife of the area abound. Yes, parrots and toucans are in great number here, along with hundreds of other types of birds, making this an ideal location for bird watching. Coati, agouti, otter, and the giant green iguana are among the many animals which are regular visitors to our beautiful gardens which, though lush and exotic, are virtually mosquito free, a real bonus for those who love the great outdoors - and a good night's sleep.</p>
                         </div>
                         <div className="row center">
-                        <a href="#" id="download-button" className="btn-large waves-effect waves-light teal lighten-1">Learn more from our Reviews!</a>
+                        <Link to="/tours"   className="btn-large waves-effect waves-light teal lighten-1">For a list of tours, including our free tubing adventure, just click here
+</Link>
+                        </div>
+                        <br></br>
+
+                    </div>
+                    </div> 
+                </div>
+                <Parallax imageSrc="/images/gallery/14.jpg"/>
+                <div >
+                
+                    <div className="section no-pad-bot">
+                    <div className="container">
+                        <br></br>
+                        <h1 className="header center teal-text text-lighten-2">Our Location</h1>
+                        <div className="row center">
+                        <p className="header col s12 light">Bullet Tree Falls village, just 3 miles from the Cayo district's main town of San Ignacio, is the last outpost before the great forests to the west, south, and north. Though Spanish-speaking, everyone also speaks English. Located just outside the village, Parrot Nest consists of two tree houses and seven cabins, some with private bathrooms and others sharing two bathhouses. Children are welcome. Breakfast and dinner are served on the verandah of the main house. Dinners are generous, healthy, and fresh, and meals for vegetarians are provided on request. Clean drinking water is always available.</p>
+                        </div>
+                        <div className="row center">
+                        <a href="#"   className="btn-large waves-effect waves-light teal lighten-1">For the local Best Of Cayo website just click here</a>
                         </div>
                         <br></br>
 
                     </div>
                     </div>
-                    <div className="parallax"><img src="/images/gallery/14.jpg" alt="Unsplashed"/></div>
+                    
                 </div>
-
-
-                <div className="container about">
-                    <div className="section">
- 
-                    <div className="row">
-                        <div className="col s12 m4">
-                        <div className="icon-block">
-                            <h2 className="center brown-text"><i className="material-icons">flash_on</i></h2>
-                            <h5 className="center">Speeds up development</h5>
-
-                            <p className="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-                        </div>
-                        </div>
-
-                        <div className="col s12 m4">
-                        <div className="icon-block">
-                            <h2 className="center brown-text"><i className="material-icons">group</i></h2>
-                            <h5 className="center">User Experience Focused</h5>
-
-                            <p className="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-                        </div>
-                        </div>
-
-                        <div className="col s12 m4">
-                        <div className="icon-block">
-                            <h2 className="center brown-text"><i className="material-icons">settings</i></h2>
-                            <h5 className="center">Easy to work with</h5>
-
-                            <p className="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-                        </div>
-                        </div>
-                    </div>
-
-                    </div>
-                </div>
-
-
-                <div className="parallax-container valign-wrapper">
+                <Parallax imageSrc="/images/background.jpg"/>
+                <div >
+                
                     <div className="section no-pad-bot">
                     <div className="container">
+                        <br></br>
+                        <h1 className="header center teal-text text-lighten-2">Your stay</h1>
                         <div className="row center">
-                        <h5 className="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                        <p className="header col s12 light">Parrot Nest is an ideal home base for your explorations of this fascinating district with its rivers (including falls and cascades), caves, archeological sites, jungle walks, medicine trails, butterfly farms and many more attractions. High adventure at a low price is our motto here, and peaceful relaxation is provided free of charge.	</p>
                         </div>
-                    </div>
-                    </div>
-                    <div className="parallax"><img src="/images/background.jpg" alt="Unsplashed /images/backgroundimg 2"/></div>
-                </div>
-
-                <div className="container">
-                    <div className="section">
-
-                    <div className="row">
-                        <div className="col s12 center">
-                        <h3><i className="mdi-content-send brown-text"></i></h3>
-                        <h4>Contact Us</h4>
-                        <p className="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                        <div className="row center">
+                        <Link to="/gallery"   className="btn-large waves-effect waves-light teal lighten-1">For more pictures of the PARROT NEST LODGE just click here</Link>
                         </div>
-                    </div>
+                        <br></br>
 
                     </div>
+                    </div>
+                    
                 </div>
-
-
-                <div className="parallax-container valign-wrapper">
+                <Parallax imageSrc="/images/gallery/15.jpg"/>
+                <div >
+                
                     <div className="section no-pad-bot">
                     <div className="container">
+                        <br></br>
+                        <h1 className="header center teal-text text-lighten-2">Close Promiximity</h1>
                         <div className="row center">
-                        <h5 className="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                        <p className="header col s12 light">It's very easy and inexpensive to get around San Ignacio, making getting to the Nest quite simple. Buses to and from Belize City run frequently every day(usually every half hour), and drop you off in downtown San Ignacio. For a smoother ride that's door to door, a private shuttle is the way to go, and it only takes 2 hours(it costs between$35u and $65u pp). From San Ignacio, the best taxi rates are with the Bullet Tree Collectivo Taxis($1us pp to the village; $2.50 pp to the lodge) which can be found directly across the street from the entrance of Belize Bank. When heading into town for supplies, we glady drop people off in town.</p>
                         </div>
+                        <div className="row center">
+                        <Modal
+                            header='Near by locations' 
+                            bottomSheet
+                            trigger={<Button className="btn-large waves-effect waves-light teal lighten-1" >For a map of Bullet Tree, just click here</Button>}>
+                            <Map/>
+                        </Modal>
+                        </div>
+                        <br></br>
+
                     </div>
                     </div>
-                    <div className="parallax"><img src="/images/background.jpg" alt="Unsplashed /images/backgroundimg 3"/></div>
+                    
                 </div>
+                <Parallax imageSrc="/images/gallery/16.jpg"/>
+                <div >
+                
+                    <div className="section no-pad-bot">
+                    <div className="container">
+                        <br></br>
+                        <h1 className="header center teal-text text-lighten-2">No luxury</h1>
+                        <div className="row center">
+                        <p className="header col s12 light">We are not a luxury resort, as you can tell! We are a family owned and operated business, and we moved to Belize for the way of life. Marcus teaches at Sacred Heart, Theo manages the lodge, and the kids do whatever they want. We don't like being nickled and dimed when on vacation, so tube rides anytime, no problem and no charge. Life as it should be. See you in paradise!</p>
+                        </div>
+                        <div className="row center"> 
+                        </div>
+                        <br></br>
+
+                    </div>
+                    </div>    
+                </div>     
             </div>
         );
     }

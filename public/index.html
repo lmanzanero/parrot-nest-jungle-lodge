@@ -46,19 +46,21 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript">
     $( document ).ready(function(){
+      $('ul.tabs').tabs();
       $('.materialboxed').materialbox();
         $(".button-collapse").sideNav();
-        $('ul.tabs').tabs();
         $('.parallax').parallax();
         $('.carousel').carousel();
-        $('.scrollspy').scrollSpy();
-        $('.slider').slider({
-            height: 705,
-            indicators: false,
-            transition: 2000,
-            interval:  10000
-        }); 
+        $('.scrollspy').scrollSpy(); 
+        // $('.slider').slider({
+        //     height: 705,
+        //     indicators: false,
+        //     transition: 2000,
+        //     interval:  10000
+        // }); 
+           
     });  
+    
   </script>
   </body>
 </html>
