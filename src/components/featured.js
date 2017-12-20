@@ -6,7 +6,7 @@ class Featured extends Component {
 
   render() {
     return (  
-            <div>
+            <div className="mainSlider">
                 <Slider indicators={false} interval={8000} >
                     <Slide
                         src="/images/slider/1.jpg"

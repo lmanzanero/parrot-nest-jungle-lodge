@@ -27,14 +27,12 @@ a:hover {
 
 .brand-logo img {
   position: relative;
-  width: 130px;
+  width: 60%;
   margin-left: 50px;
   top: -100px;
 }
 .brand-logo-small img {
-  position: relative;
-  width: 60px;
-  margin-left: 90px; 
+  display: none;
 }
  
 nav {
@@ -138,10 +136,13 @@ nav li a:hover {
   top: -35px; 
   margin-bottom: -35px;
   height: 680px !important;
+  width: 100% !important;
+  overflow: hidden !important;
 }
 
 .slider .slides {
   height: 100% !important;
+  overflow: hidden !important;
 }
 
 .slider h3 {
@@ -158,6 +159,30 @@ nav li a:hover {
 
 .page-footer {
   background-color: rgb(27, 125, 139);
+  justify-content: center;
+}
+
+.page-footer .books img {
+  height: 200px !important;
+}
+
+.page-footer img {
+  width: 100%;
+  border-style: solid;
+  border-width: 4px;
+  border-color:#CFC;
+  padding: 3px;
+  height: 70px;
+}
+.page-footer img:hover {
+  width: 101%; 
+  border-color: rgb(199, 216, 47);
+}
+
+@media only screen and (max-width: 1200px) { 
+  .brand-logo img{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) { 
@@ -172,14 +197,14 @@ nav li a:hover {
       font-family: 'jokerman'; 
       font-size: 25px;
       margin-left: 40px; 
-      position: relative; 
+      position: relative;  
     }
-    .brand-logo img {
+    /* .brand-logo img {
       position: relative;
       width: 80px;
       margin-left: -5px;
       top: -100px;
-    } 
+    }  */
     .materialbox-caption {
       margin-bottom: 150px;
   }
@@ -336,5 +361,4 @@ blockquote {
 .modal button {
      background: red;
 }
-
  

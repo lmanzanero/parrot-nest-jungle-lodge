@@ -8,7 +8,7 @@ class Tours extends Component {
                 <div className="row">
                     <h5>All tours are booked with local tour operators. The Nest will be happy to book your tours for you in advance or simply call them in when you are here.</h5>
                     <p>After reading all the independent reviews for San Ignacio's registered Tour operators, and listening to our clients, we highly recommend Pacz Tours and BZM Tours:</p>
-                        <img />
+                        {/* <img /> */}
                     <p>and recommend reading Tripadvisor.com before using some of the others around town.</p>
                 </div>
                 <div className="row">
@@ -16,18 +16,18 @@ class Tours extends Component {
                     <p>A wonderful adventure that starts and ends at Parrot Nest! Tube on the Mopan river for up to 2 hours(depending on river current) You'll See hundreds of iguanas and many different species of local birds. You'll get to see the Bullet Tree Falls, and tube down the chute after some rapids. And easy excursion that anyone can do. This is FREE for all Parrot Nest guests! </p>
                     <h5>BARTON CREEK CAVES (1/2 DAY TRIP, 2 people min.) </h5>
                     <p>An adventurous drive through the countryside out west in the area of the Upper Barton Creek, home to an old fashioned Mennonite community arrives at Barton Creek Outpost, A little restaurant with great food located in the middle of nowhere with one of the most beautiful swimming holes around, relaxation, hammocks and rope swings are all part of the day, here you will embark on canoes and travel through large and small caverns through a caving system enjoying the stories told by the guide and exploring with lamps the amazing stalactites and stalagmites.</p>
-                    <a href="#" target="_blank">Click here for the Barton Creek Outpost website</a>
+                    <a href="/">Click here for the Barton Creek Outpost website</a>
                 </div>
                 <div className="row">
                     <h5>Alcohol day:</h5>
                     <p>Within easy access and close to town:</p>
                     <p>LOCAL MAYA RUINS (Xunantunich, Cahal Pech or El Pilar) </p>
-                    <a href="#">NATURE TRAILS WALK AND IGUANA HATCHERY - click for more info</a>
+                    <a href="/">NATURE TRAILS WALK AND IGUANA HATCHERY - click for more info</a>
                     <p>HERBAL, MEDICINAL TRAIL WALK AND INNERTUBE FLOAT ON THE MOPAN RIVER </p>
                 </div>
                 <div className="row">
                     <h5>HORSE BACK RIDING (1/2 DAY TRIPS & FULL DAY TRIPS AVAILABLE)</h5>
-                    <p>Explore the countryside, riverbanks and Maya Ruins on horseback in the company of great guides. Mountain Equestrian Trails is the place to go for horseback riding. They are located in Mountain Pine Ridge, and can horse ride to any place there. A must do adventure. <a href="http://www.metbelize.com" target="_blank">Click here for MET's site.</a> </p>
+                    <p>Explore the countryside, riverbanks and Maya Ruins on horseback in the company of great guides. Mountain Equestrian Trails is the place to go for horseback riding. They are located in Mountain Pine Ridge, and can horse ride to any place there. A must do adventure. <a href="http://www.metbelize.com" rel="noopener noreferrer" target="_blank">Click here for MET's site.</a> </p>
                 </div>
                 <div className="row">
                     <h5>MOUNTAIN PINE RIDGE (FULL DAY TRIP, 4 people min)</h5>

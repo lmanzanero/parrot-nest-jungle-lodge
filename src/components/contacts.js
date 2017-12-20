@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Map from './map';
 import { Modal, Button } from 'react-materialize';
 

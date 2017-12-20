@@ -35,7 +35,7 @@ class About extends Component {
                         <p className="header col s12 light">Bullet Tree Falls village, just 3 miles from the Cayo district's main town of San Ignacio, is the last outpost before the great forests to the west, south, and north. Though Spanish-speaking, everyone also speaks English. Located just outside the village, Parrot Nest consists of two tree houses and seven cabins, some with private bathrooms and others sharing two bathhouses. Children are welcome. Breakfast and dinner are served on the verandah of the main house. Dinners are generous, healthy, and fresh, and meals for vegetarians are provided on request. Clean drinking water is always available.</p>
                         </div>
                         <div className="row center">
-                        <a href="#"   className="btn-large waves-effect waves-light teal lighten-1">For the local Best Of Cayo website just click here</a>
+                        <a href="https://www.scoop.it/t/best-of-san-ignacio-cayo" rel="noopener noreferrer" target="_blank"  className="btn-large waves-effect waves-light teal lighten-1">For the local Best Of Cayo website just click here</a>
                         </div>
                         <br></br>
 
