@@ -45,7 +45,7 @@ class Reviews extends Component {
                             </blockquote>
                         </div> 
                     </div>
-                    <div class="center-align">
+                    <div className="center-align">
                          <a target="_blank" rel="noopener noreferrer"href="http://www.bestofcayo.com">For the local Best Of Cayo website just click here</a>
                     </div>
                     <div className="divider"></div>

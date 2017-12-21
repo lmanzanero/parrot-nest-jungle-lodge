@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import SideNav from './sideNav';
-
-
+ 
 
 class Header extends Component {
   constructor(props){
     super(props); 
     this.state = {isToggleOn: true};
  
-    this.handleScroll = this.handleScroll.bind(this);
-    
+    this.handleScroll = this.handleScroll.bind(this);  
   }
    
   
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll); 
     // console.log('Top of nav is: ',  topOfNav);
+     
   };
   
   componentWillUnmount() {
@@ -43,14 +42,14 @@ class Header extends Component {
             <nav className={this.state.isToggleOn ? '' : 'trans'}>
               <div className="nav-wrapper">
               <a  data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
-                  <a className={this.state.isToggleOn ? 'brand-logo' : 'brand-logo-small'}> <img alt="logo" className="responsive-img center-align" src="/images/logo.gif"/></a>
+                  <div className={this.state.isToggleOn ? 'brand-logo' : 'brand-logo-small'}> <img alt="logo" className="responsive-img center-align" src="/images/logo.gif"/></div>
                   <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><Link to="/">Home</Link></li> 
-                    <li><Link to="/reservations">Reservations</Link></li> 
-                    <li><Link to="/reviews">Reviews</Link></li> 
-                    <li><Link to="/gallery">Gallery</Link></li> 
-                    <li><Link to="/tours">Tours</Link></li> 
-                    <li><Link to="/contacts">Contacts</Link></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/">Home</NavLink></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/reservations">Reservations</NavLink></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/reviews">Reviews</NavLink></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/gallery">Gallery</NavLink></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/tours">Tours</NavLink></li> 
+                    <li><NavLink exact activeStyle={{fontWeight: 'bold',color: '#CFC'}} activeClassName="selected" to="/contacts">Contacts</NavLink></li> 
                   </ul> 
                 </div>
               </nav>

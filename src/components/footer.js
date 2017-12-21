@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => (
   <div>
       <footer className="page-footer"> 
+            <h4 className="header center teal-text text-lighten-4">See us in these great tour Books</h4>
             <div className="row">
                <div className="col s12 m4 l4"><a href="#!"><img alt="tripadvisor" src="/images/gallery/tripadvisor.svg"/></a></div> 
                <div className="col s12 m4 l4"><a href="#!"><img alt="tripadvisor" src="/images/gallery/frommers.jpg"/></a></div>

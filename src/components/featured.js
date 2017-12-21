@@ -10,20 +10,20 @@ class Featured extends Component {
                 <Slider indicators={false} interval={8000} >
                     <Slide
                         src="/images/slider/1.jpg"
-                        title="This is our big Tagline!">
-                        Here's our small slogan.
+                        title="Welcome to Jungle Paradise">
+                        We are the most affordable Jungle Lodge in Belize
                     </Slide>
                     <Slide
                         src="/images/slider/2.jpg"
-                        title="Left aligned Caption"
+                        title="Let us help you experience Belize"
                         placement="left">
-                        Here's our small slogan.
+                        We promise a true Belize Jungle experience
                     </Slide>
                     <Slide
                         src="/images/slider/3.jpg"
-                        title="Right aligned Caption"
+                        title="We are no Luxury!"
                         placement="right">
-                        Here's our small slogan.
+                        but, we promise you will ENJOY!
                     </Slide>
                 </Slider>
             </div>   

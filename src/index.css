@@ -25,6 +25,8 @@ a:hover {
   position: relative;
 }
 
+ 
+
 .brand-logo img {
   position: relative;
   width: 60%;
@@ -65,7 +67,7 @@ nav li a:hover {
 
 
 .side-nav {
-  background-color: rgba(210, 218, 216, 0.9); 
+  background-color: rgba(113, 216, 190, 0.8); 
   font-size: 30px !important;
 }
 
@@ -86,7 +88,7 @@ nav li a:hover {
 
 .side-nav li a:hover {
   background-color:rgba(77, 92, 88, 0.9);
-  color: rgb(241, 247, 248);
+  color: rgb(71, 142, 153);
   font-size: 24px;
 }
 
@@ -361,4 +363,13 @@ blockquote {
 .modal button {
      background: red;
 }
+
+.about-buttons {
+  padding-bottom: 20px !important; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 90%;
+  display: block;
+  overflow: hidden
+} 
  
